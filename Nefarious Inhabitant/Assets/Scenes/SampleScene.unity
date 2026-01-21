@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -300,6 +301,18 @@ MonoBehaviour:
   target: {fileID: 1698061077}
   offset: {x: 0, y: 2, z: -5}
   mouseSensitivity: 3
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b7b244b1ee87b448aa96d1a80328ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,7 +3120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2292327509109798996, guid: 64c6f49a3779eb14ba1e01898abc0280, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.042
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2292327509274496764, guid: 64c6f49a3779eb14ba1e01898abc0280, type: 3}
       propertyPath: m_LocalPosition.y
